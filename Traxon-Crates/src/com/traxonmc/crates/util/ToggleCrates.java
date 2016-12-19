@@ -6,16 +6,8 @@ public class ToggleCrates {
 	
 	private Main plugin;
 	
-	public ToggleCrates(Main plugin) {
-		this.plugin = plugin;
-	}
+	public ToggleCrates(Main plugin) { this.plugin = plugin; }
 	
-	public void toggle() {
-		if(plugin.toggle == true) {
-			plugin.toggle = false;
-		} else {
-			plugin.toggle = true;
-		}
-	}
+	public void toggle() { plugin.toggle = !plugin.toggle; }
 
 }
