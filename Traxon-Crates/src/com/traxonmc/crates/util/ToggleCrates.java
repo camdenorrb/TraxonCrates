@@ -4,7 +4,7 @@ import com.traxonmc.crates.main.Main;
 
 public class ToggleCrates {
 	
-	private Main plugin;
+	private final Main plugin;
 	
 	public ToggleCrates(Main plugin) { this.plugin = plugin; }
 	
